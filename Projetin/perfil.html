@@ -1,0 +1,203 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profissional - Maria Silva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="Header">
+        <div class="header-background"></div>
+        <div class="logo-container">
+            <img src="images/" alt="GoJob Logo" class="Logo-image">
+        </div>
+        <div class="Bloco_Link">
+            <div class="links">
+                <span class="link"><i class="fas fa-home"></i><a href="index.html"></a> Home</span>
+                <span class="link"><i class="fas fa-search"></i> Buscar</span>
+            </div>
+            <div class="login-cart">
+                <div class="login">
+                    <a href="login.html" class="login_t">Login</a>
+                </div>
+                <div class="cart">
+                    <span class="cart_t"><i class="fas fa-shopping-cart"></i> Carrinho (0)</span>
+                    <div id="cartPopup" class="cart-popup">
+                        <div class="cart-popup-content">
+                            <div class="cart-popup-header">
+                                <h3>Seu Carrinho</h3>
+                                <div id="closeCart" class="close-cart">×</div>
+                            </div>
+                            <div id="cartItems" class="cart-items">
+                                <div id="emptyCartMessage" class="empty-cart-message">
+                                    Seu carrinho está vazio
+                                </div>
+                            </div>
+                            <div class="cart-summary">
+                                <div class="cart-total">
+                                    <span>Total:</span>
+                                    <span id="cartTotal">R$ 0,00</span>
+                                </div>
+                                <div class="cart-actions">
+                                    <button class="btn-continue">Continuar</button>
+                                    <button class="btn-checkout">Finalizar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://api.dicebear.com/7.x/personas/svg?seed=Maria" alt="Maria Silva" class="profile-image">
+            <div class="profile-details">
+                <h1 class="profile-name">Maria Silva</h1>
+                <h2 class="profile-title">Desenvolvedora Full Stack | UX/UI Designer</h2>
+                
+                <div class="profile-stats">
+                    <div class="stat">
+                        <div class="stat-value">45</div>
+                        <div class="stat-label">Projetos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">127</div>
+                        <div class="stat-label">Seguidores</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">98%</div>
+                        <div class="stat-label">Satisfação</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h2 style="color: var(--accent-primary); margin-bottom: 1rem;">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">TypeScript</div>
+                <div class="skill-tag">Docker</div>
+                <div class="skill-tag">Kubernetes</div>
+                <div class="skill-tag">Figma</div>
+                <div class="skill-tag">AWS</div>
+                <div class="skill-tag">GraphQL</div>
+            </div>
+        </div>
+
+        <div class="projects-section">
+            <h2 style="color: var(--accent-primary); margin-bottom: 1rem;">Projetos Recentes</h2>
+            <div class="project-card">
+                <div>
+                    <h3 style="color: var(--accent-secondary);">E-commerce Platform</h3>
+                    <p style="color: var(--neutral-medium);">Full-stack web application with microservices architecture</p>
+                </div>
+                <div style="color: var(--accent-primary);">React | Node.js | Docker</div>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h3 style="color: var(--accent-secondary);">Mobile Health Tracker</h3>
+                    <p style="color: var(--neutral-medium);">Cross-platform mobile app for health monitoring</p>
+                </div>
+                <div style="color: var(--accent-primary);">React Native | Firebase</div>
+            </div>
+        </div>
+
+        <a href="https://wa.me/5511999999999" class="contact-cta" target="_blank">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+    </div>
+    <div class="services-container">
+        <h2 style="color: var(--accent-primary); margin-bottom: 1rem;">Avaliações de Serviços</h2>
+        <div class="service-ratings">
+            <div class="service-rating-card">
+                <div class="service-rating-header">
+                    <h3 style="color: var(--accent-secondary);">Desenvolvimento Web</h3>
+                    <div class="rating">
+                        <span class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                        <span class="rating-value">4.5</span>
+                    </div>
+                </div>
+                <p style="color: var(--neutral-medium);">Projetos entregues com qualidade e pontualidade excepcionais.</p>
+                <div class="service-meta">
+                    <span class="total-projects">12 Projetos Concluídos</span>
+                    <span class="client-satisfaction">95% Satisfação</span>
+                </div>
+            </div>
+    
+            <div class="service-rating-card">
+                <div class="service-rating-header">
+                    <h3 style="color: var(--accent-secondary);">Design UX/UI</h3>
+                    <div class="rating">
+                        <span class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="rating-value">5.0</span>
+                    </div>
+                </div>
+                <p style="color: var(--neutral-medium);">Interfaces intuitivas e designs modernos que elevam a experiência do usuário.</p>
+                <div class="service-meta">
+                    <span class="total-projects">8 Projetos Concluídos</span>
+                    <span class="client-satisfaction">100% Satisfação</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div class="footer-background"></div>
+        <div class="Bloco_1">
+            <h3 class="footer-heading">Sobre Nós</h3>
+            <p class="footer-text">Somos uma empresa dedicada a oferecer produtos de alta qualidade com designs únicos e inovadores. Nossa missão é proporcionar experiências memoráveis.</p>
+        </div>
+        <div class="Bloco_2">
+            <h3 class="footer-heading">Links Úteis</h3>
+            <ul class="footer-links">
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+        <div class="Bloco_3">
+            <h3 class="footer-heading">Contato</h3>
+            <p class="footer-text">Email: contato@projetinfuturo.com</p>
+            <p class="footer-text">Telefone: (11) 9999-9999</p>
+            <p class="footer-text">Endereço: Av. Exemplo, 123 - São Paulo</p>
+        </div>
+        <div class="Redes">
+            <h3 class="footer-heading">Redes Sociais</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                </a>
+            </div>
+        </div>
+        <div class="name">
+            <p class="copyright">© 2025 Projetin Futuro. Todos os direitos reservados.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
